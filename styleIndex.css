@@ -1,0 +1,119 @@
+body{
+    background-image: url("pictures/back-ground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 55px;
+    z-index: 1;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    z-index: 2;
+}
+
+.navBar a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.navButtons{
+    display: inline-block;
+    padding: 15px 17px;
+}
+
+.navButtons:hover{
+    background-color: dimgray;
+}
+
+.containerAbout{
+    width: 100%;
+    background-image: url("pictures/back-ground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.containerAbout .aboutTxt{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+.containerEduAndSkill{
+    text-align: center;
+}
+
+.programLan{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.containerEduAndSkill .programLan label{
+    display: block;
+    font-size: 22px;
+    color: #1e297d;
+}
+
+.skillSet img{
+    height: 80%;
+    width: auto;
+}
+
+.left,
+.center,
+.right {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+
+.containerContact{
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerContact .boxContact{
+    flex: 50%;
+    padding-bottom: 50px;
+}
+
+.contactForm input {
+    margin: 15px 15px;
+    display: inline-block;
+    width: 50%;
+}
+
+.btn {
+    background-color: #1e297d;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #08006e;
+}
+
+table{
+    margin: auto;
+}
+
+tr{
+    padding: 20px;
+}
+th{
+    padding: 20px;
+}

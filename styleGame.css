@@ -1,0 +1,44 @@
+.containerGame {
+    margin: 15px;
+    display: none;
+    text-align: center;
+}
+
+.gameBoard {
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.box0, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    background: whitesmoke;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 60px;
+}
+
+.box0:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover {
+    background: whitesmoke;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 60px;
+}
+
+.box0 .index, .box1 .index, .box2 .index,
+.box3 .index, .box4 .index, .box5 .index,
+.box6 .index, .box7 .index, .box8 .index {
+    visibility: hidden;
+}
+
+.box0:hover .index, .box1:hover .index, .box2:hover .index,
+.box3:hover .index, .box4:hover .index, .box5:hover .index,
+.box6:hover .index, .box7:hover .index, .box8:hover .index {
+    visibility: visible;
+}
